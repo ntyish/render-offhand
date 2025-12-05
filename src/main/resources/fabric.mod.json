@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "render-offhand",
+	"version": "${version}",
+	"name": "Render Offhand",
+	"description": "Renders the offhand",
+	"authors": [
+		"nty"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/project/render-offhand/",
+		"sources": ""
+	},
+	"license": "CC BY-NC 4.0",
+	"icon": "assets/render-offhand/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.nty.renderoffhand.RenderOffhand"
+		]
+	},
+	"mixins": [
+		"render-offhand.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
